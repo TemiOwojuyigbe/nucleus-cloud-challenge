@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 @app.route('/')
 def index():
     logger.info('GET / called')
-    return '<h1>Hello from nucleus-service</h1>'
+    return '<h1>Hellur...im working</h1>'
 
 @app.route('/health')
 def health():
